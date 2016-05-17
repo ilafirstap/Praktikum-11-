@@ -1,0 +1,32 @@
+#include <iostream>
+using namespace std;
+int main () {
+
+int n;
+int bil;
+
+cout <<"Masukkan data : "<<endl;
+cin>>n;
+int Angka[n];
+for (int C=0; C<n; C++) {
+    cout<<"Angka["<<C<<"] = "; cin>>Angka[C];
+}
+
+cout << " Nilai Array adalah :" <<endl;
+for (int C=0; C<n; C++){
+    cout<<"["<<Angka[C]<<"]";}
+
+
+//Memasukkan nilai yang akan dicari
+cout<<"Memasukkan nilai yang akan dicari : "; cin>>bil;
+
+//Melakukan pencarian data
+for (int J=0; J<n; J++) {
+    if (Angka[J] == bil) {
+    cout<< "Niai yang dicari terdapat pada indeks ke-"<<J;
+    break;
+    }
+}
+}
+
+
