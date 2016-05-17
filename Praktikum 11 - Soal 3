@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+int main () {
+
+int n;
+
+cout <<"Masukkan data : "<<endl;
+cin>>n;
+int Angka[n];
+for (int C=0; C<n; C++) {
+    cout<<"Angka["<<C<<"] = "; cin>>Angka[C];
+}
+
+cout << " Nilai Array adalah :" <<endl;
+for (int C=0; C<n; C++){
+    cout<<"["<<Angka[C]<<"]";}
+    return 0;
+}
+
+
+
+
